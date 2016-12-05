@@ -1,0 +1,186 @@
+/*headertop*/
+.clear{ clear:both;}
+.fl{float:left; display:inline;}
+.fr{float:right;display:inline;}
+
+.headerTop {
+  height: 30px;
+  background: #323232;
+  line-height: 30px;
+  color: #e3dfd5;
+}
+
+.headerTop a {
+  color: #e3dfd5;
+}
+
+.headerTop a:hover {
+  color: #00a6ad;
+}
+
+.headerTopLeft {
+  float: left;
+}
+
+.headerTopLeft span {
+  margin-left: 13px;
+}
+
+.headerTopRight {
+  float: right;
+}
+
+.headerTopRight span {
+  margin-right: 13px;
+  padding-right: 13px;
+}
+
+.headerTopRight .map {
+  background: url("../img/top-map.png") no-repeat right center;
+}
+
+.headerTopRight .en {
+  background: url("../img/top-en.png") no-repeat right center;
+}
+
+.headerSearch {
+  float: right;
+  width: 19px;
+  height: 18px;
+  cursor: pointer;
+  padding: 6px 0;
+}
+
+/*header*/
+
+/*headerContent*/
+
+.header {
+  height: 124px;
+  background: url("../img/head-bg.gif") repeat-x;
+}
+
+.headerContent {
+  width: 1150px;
+  margin: 0 auto;
+  height: 90px;
+}
+
+.headerCL {
+  width: 287px;
+  height: 67px;
+  margin: 12px 0 0 11px;
+  float: left;
+  display: inline;
+}
+/*headerCR*/
+.headerCR {
+  float: right;
+  width: 500px;
+  margin-top: 34px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  text-align: right;
+  color: #fff;
+}
+
+.headerCR a {
+  color: #e3dfd5;
+}
+
+.headerCR span {
+  background: url(../img/img.png);
+  padding-left: 54px;
+  color: #fff;
+  height: 20px;
+  line-height: 20px;
+  float: left;
+  margin:3px 10px 0 0 ;
+}
+
+.headerCR .xs {
+  background: url("../img/img.png") no-repeat 25px 0px;
+}
+
+.headerCR .jz{
+  background: url("../img/img.png") no-repeat 25px -15px;
+}
+
+.headerCR .xy {
+  background: url("../img/img.png") no-repeat 25px -31px;
+}
+
+.headerCR .lf {
+  background: url("../img/img.png") no-repeat 25px -47px;
+}
+
+.headerNav {width:1150px; margin:0 auto; height:34px; display:flex; display:-webkit-flex; justify-content:space-around;}
+#headerNavUl li {FONT-SIZE:16px;  HEIGHT: 34px;LINE-HEIGHT: 34px;float:left; text-align: center; font-weight:normal; position:relative; cursor:pointer;z-index:999;}
+#headerNavUl li a{color:#fff;}
+#headerNavUl li a:hover{color:#fff;}
+#headerNavUl li ul {list-style:none; z-index:909; width:1110px;position:absolute;display:none;top:34px; padding:20px;background:url( "../img/nav-erji-bg.png") repeat; margin:0 auto;}
+.nav-main0{left:-0px;}
+.nav-main1{left:-104px;}
+.nav-main2{left:-208px;}
+.nav-main3{left:-312px;}
+.nav-main4{left:-416px;}
+.nav-main5{left:-520px;}
+.nav-main6{left:-624px;}
+.nav-main7{left:-728px;}
+.nav-main8{left:-832px;}
+.nav-main9{left:-936px;}
+.nav-main10{left:-1040px;}
+#headerNavUl li.navmoon { WIDTH:104px; DISPLAY: block; HEIGHT: 34px; LINE-HEIGHT: 34px;  color:#fff; }
+#headerNavUl li.navmoon .nav-erji{width:1110px; min-height:200px;}
+#headerNavUl li.navmoon .nav-left-list{ margin:10px 0 0 40px; width:440px;}
+#headerNavUl li.navmoon a:hover{background-color:#ba0000;}
+#headerNavUl li.navmoon .nav-left-list .nav-li{ height:48px; line-height:48px; margin:0 5px; float:left; border-bottom:1px solid #c8cccd;display:inline; font-size:14px; background:url("../img/nav-list-left-list.png") no-repeat 5px center; padding-left:20px; text-align:left;}
+#headerNavUl li.navmoon .nav-left-list .nav-li1{width:120px;}
+#headerNavUl li.navmoon .nav-left-list .nav-li2{width:115px;}
+#headerNavUl li.navmoon .nav-left-list .nav-li3{width:170px;}
+#headerNavUl li.navmoon .nav-left-list .nav-li a{color:#5e605f;}
+#headerNavUl li.navmoon .nav-left-list .nav-li a:hover{ color:#f90000;}
+#headerNavUl li.navmoon .nav-right-tu{
+
+    width: 510px;
+    height:160px;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-left:0;
+    margin-bottom: 0;
+}
+
+/*picture turn*/
+
+.picTurn {
+  width: 1150px;
+  height: 390px;
+  margin: 0 auto;
+}
+
+.pic img {
+  width: 1150px;
+  height: 390px;
+}
+
+.ol {
+  width: 1150px;
+  height: 19px;
+  text-align: right;
+  top: -19px;
+  position: relative;
+}
+
+.ol a {
+  color: #fff;
+  line-height: 15px;
+  font-size: 15px;
+  background-color: #666;
+  padding: 1px 7px;
+  border-left: #ccc 1px solid;
+}
+
+.ol .active {
+  background-color: #FF0000;
+}
